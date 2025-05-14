@@ -1,0 +1,20 @@
+[project]
+title = "Netflix Data Analysis App"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Netflix Analysis"
+logo = "images/netflix-logo.png"
+favicon = "images/netflix-favicon.ico"
+primaryColor = "#E50914"
+
+[data.sample_csv]
+type = "csv"
+path = "data/netflix_titles.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
